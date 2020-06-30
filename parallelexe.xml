@@ -1,0 +1,16 @@
+<suite name="softwaretestingmaterial" parallel="tests">
+ <test name="chrometest">
+   <classes>
+      <parameter name="myBrowser" value = "chrome"/>
+      <class name="ParallelTest.ParellelTesting" />
+   </classes>
+ </test>
+ 
+ <test name="firefoxtest">
+   <classes>
+       <parameter name="myBrowser" value = "firefox"/>
+       <class name="ParallelTest.ParellelTesting" />
+   </classes>
+ </test>
+
+</suite>

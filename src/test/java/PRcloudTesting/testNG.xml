@@ -1,0 +1,10 @@
+<suite name="softwaretestingmaterial">
+ <test name="testngTest">
+ <classes>
+       <class name="PRcloudTesting.CompanyInfoTesting" />
+      <class name="PRcloudTesting.EmployeeSetupTest" />
+ 
+ 
+ </classes>
+ </test>
+</suite>

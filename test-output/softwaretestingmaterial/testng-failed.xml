@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <test name="testngTest(failed)">
+    <groups>
+      <run>
+        <exclude name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="PRcloudTesting.DepartmentTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="setExtent"/>
+          <include name="departmentPageTitleTest"/>
+        </methods>
+      </class> <!-- PRcloudTesting.DepartmentTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->
